@@ -12,7 +12,11 @@ def enviar_correo(usuario, email):
     s.sendmail("juantonioramos26@gmail.com", email, mensaje)
     print(f"Mensaje enviado a {usuario}")
 
+enviar_correo("Briones", "20630241@itocotlan.com")
+
+"""
 correos = [["Antonio Ramos", "20630271@itocotlan.com"], ["Martin", "juanmglezrazo@gmail.com"], ["Danca", "dancarrodoce@gmail.com"], ["Benja", "benjamin3455rg16@gmail.com"]]
 
 for correo in correos:
     enviar_correo(correo[0], correo[1])
+"""
